@@ -8,7 +8,6 @@
 
 ## Структура проекта
 
-Для обоих сервисов соблюдена модульная архитектура:
 - **api/** — эндпоинты (FastAPI) или хэндлеры (aiogram).
 - **core/** — конфигурация и безопасность.
 - **db/** — модели БД и настройки.
@@ -67,8 +66,7 @@ python -m app.main
    * **Важно**: используй email формата `surname@email.com`.
 2. Получи токен через `POST /auth/login`.
 3. Отправь токен боту командой `/token`.
-4. Спроси что угодно.
-
+Finalize README structure section
 ## Скриншоты
 ### Регистрация (POST /auth/register)
 ![registration](screen/registration.png)
