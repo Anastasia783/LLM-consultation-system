@@ -89,9 +89,13 @@ python -m app.main
 
 ![celery](screen/celery.png)
 
-### Тесты
+### Тестирование Auth Service
 
-![tests](screen/tests.png)
+![tests_auth](screen/tests.png)
+
+### Тестирование Bot Service
+
+![tests_bot](screen/bot%20service%20test.png)
 
 ## Тестирование
 
